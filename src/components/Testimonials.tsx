@@ -13,9 +13,9 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Aurora Financial Services has been a game-changer for our
+              &quot;Aurora Financial Services has been a game-changer for our
               business. Their expertise in tax consulting saved us from costly
-              errors, and their team is always professional and reliable.
+              errors, and their team is always professional and reliable.&quot;
             </p>
 
             <Avatar
@@ -28,9 +28,9 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              "The Aurora team is exceptional! They handled our bookkeeping and
-              provisional tax returns seamlessly, giving us more time to focus
-              on growing our company."
+              &quot;The Aurora team is exceptional! They handled our bookkeeping
+              and provisional tax returns seamlessly, giving us more time to
+              focus on growing our company.&quot;
             </p>
 
             <Avatar
@@ -43,9 +43,9 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              "Aurora Financial Services took the stress out of tax season for
-              me. Their attention to detail and commitment to excellence are
-              unmatched."
+              &quot;Aurora Financial Services took the stress out of tax season
+              for me. Their attention to detail and commitment to excellence are
+              unmatched.&quot;
             </p>
 
             <Avatar
