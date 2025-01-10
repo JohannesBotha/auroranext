@@ -26,7 +26,7 @@ export default function Home() {
       <Team />
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Please check the FAQ's before contacting us.
+        Please check the FAQ before contacting us.
       </SectionTitle>
 
       <Faq />
