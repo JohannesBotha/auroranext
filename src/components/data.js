@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/aurora_gold.png";
-import benefitTwoImg from "../../public/img/the-sun.jpg";
+import benefitTwoImg from "../../public/img/aurora_lights.png";
 
 const benefitOne = {
   title: "Services",

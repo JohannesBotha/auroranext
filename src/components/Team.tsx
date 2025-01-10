@@ -3,14 +3,20 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import memOneImg from "../../public/img/the-sun.jpg";
+import memOneImg from "../../public/img/Alison_Deysel.jpg";
+import memTwoImg from "../../public/img/Samantha Koch.jpg";
+import memThreeImg from "../../public/img/Lorinda_Deysel.jpg";
 
 export default function Team() {
   return (
-    <div className="container flex grid-cols-4 gap-8">
-      <div className="col-span-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="container flex grid-cols-3 gap-8">
+      <div className="w-1/3 col-span-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <Link href="/About">
-          <Image className="rounded-t-lg" src={memOneImg} alt="" />
+          <Image
+            className=" object-cover rounded-t-lg"
+            src={memOneImg}
+            alt=""
+          />
         </Link>
         <div className="p-5">
           <Link href="/About">
@@ -44,9 +50,9 @@ export default function Team() {
           </Link>
         </div>
       </div>
-      <div className="col-span-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-1/3 col-span-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <Link href="/About">
-          <Image className="rounded-t-lg" src={memOneImg} alt="" />
+          <Image className="object-cover rounded-t-lg" src={memTwoImg} alt="" />
         </Link>
         <div className="p-5">
           <Link href="/About">
@@ -80,9 +86,13 @@ export default function Team() {
           </Link>
         </div>
       </div>
-      <div className="col-span-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-1/3 col-span-1 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <Link href="/About">
-          <Image className="rounded-t-lg" src={memOneImg} alt="" />
+          <Image
+            className="object-cover rounded-t-lg"
+            src={memThreeImg}
+            alt=""
+          />
         </Link>
         <div className="p-5">
           <Link href="/About">

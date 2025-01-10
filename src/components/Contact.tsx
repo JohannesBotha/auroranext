@@ -26,8 +26,8 @@ export default function Contact() {
   }
 
   return (
-    <div className="flex mt-10">
-      <div className=" flexmx-auto rounded-2xl items-center w-2/3  border-8 border-gray-600 bg-gray-600 shadow-3xl  ">
+    <div className="flex-col mt-10">
+      <div className=" mx-auto rounded-2xl items-center w-2/3  border-8 border-gray-600 bg-gray-600 shadow-3xl  ">
         <div className="flex flex-col   p-5 bg-gray-600">
           <h3 className="mb-6 text-5xl text-white">How can we help?</h3>
           <p className="text-3xl text-white opacity-50">

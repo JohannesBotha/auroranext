@@ -33,7 +33,7 @@ export const Hero = () => {
               src={heroImg}
               width="616"
               height="617"
-              className={"object-cover"}
+              className="rounded-2xl object-cover"
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"
