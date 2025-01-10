@@ -7,12 +7,12 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/the-sun.jpg";
+import benefitOneImg from "../../public/img/aurora_gold.png";
 import benefitTwoImg from "../../public/img/the-sun.jpg";
 
 const benefitOne = {
-  title: "What we offer:",
-  desc: "We specialize in the following services",
+  title: "Services",
+  desc: "We specialize in..",
   image: benefitOneImg,
   bullets: [
     {
@@ -40,8 +40,8 @@ const benefitTwo = {
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Virtual Office Sollutions",
-      desc: "We can answer the call and recieve the email you are too busy to.",
+      title: "Labour Brokarage",
+      desc: "We can help with unexpected labour shortages.",
       icon: <DevicePhoneMobileIcon />,
     },
     {

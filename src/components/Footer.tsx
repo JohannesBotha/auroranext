@@ -4,7 +4,7 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Home", "About", "Contact"];
+  const navigation = ["Home", "Pricing", "About", "Contact"];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
@@ -18,7 +18,7 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/critical.png"
+                  src="/img/aurora_logo.png"
                   alt="N"
                   width="32"
                   height="32"
@@ -33,22 +33,22 @@ export function Footer() {
               services that specialize in small businesses. We are here to help
               you with your tax and accounting needs.
             </div>
-            {/* Replace by my add 
+
             <div className="mt-5">
               <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
+                href=""
                 target="_blank"
                 rel="noopener"
                 className="relative block w-44"
               >
                 <Image
-                  src="/img/vercel.svg"
+                  src="/img/the_sun.jpg"
                   alt="Powered by Vercel"
                   width="212"
                   height="44"
                 />
               </a>
-            </div>*/}
+            </div>
           </div>
 
           <div>

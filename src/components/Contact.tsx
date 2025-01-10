@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
+import React, { FormEvent } from "react";
 
 export default function Contact() {
-  async function handleSubmit(event) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.currentTarget);
 
     formData.append("access_key", "8461831b-6c08-4586-8302-dd960d36aac6");
 
@@ -26,9 +26,9 @@ export default function Contact() {
   }
 
   return (
-    <div className="mt-10">
-      <div className=" mx-auto rounded-2xl items-center w-2/3  border-8 border-gray-600 bg-gray-600 shadow-3xl  ">
-        <div className="flex flex-col items-center justify-center  p-5 bg-gray-600">
+    <div className="flex mt-10">
+      <div className=" flexmx-auto rounded-2xl items-center w-2/3  border-8 border-gray-600 bg-gray-600 shadow-3xl  ">
+        <div className="flex flex-col   p-5 bg-gray-600">
           <h3 className="mb-6 text-5xl text-white">How can we help?</h3>
           <p className="text-3xl text-white opacity-50">
             We usually respond within 2 days.

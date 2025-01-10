@@ -3,6 +3,7 @@ import React from "react";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import { SectionTitle } from "@/components/SectionTitle";
+import { Faq } from "@/components/Faq";
 export default function About() {
   return (
     <div>
@@ -32,8 +33,10 @@ export default function About() {
           growing your business and serving your clients.
         </div>
       </div>
+
       <Team />
-      <Contact />
+      <SectionTitle title="Frequently Asked Questions"></SectionTitle>
+      <Faq />
     </div>
   );
 }

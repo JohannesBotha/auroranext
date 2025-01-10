@@ -13,24 +13,18 @@ export default function Home() {
   return (
     <Container>
       <Hero />
-      <SectionTitle preTitle="AURORA Benefits" title="Why use Aurora">
-        Aurora is the best in the world because ...
-      </SectionTitle>
+      <SectionTitle preTitle="Services" title="We offer:"></SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle preTitle="The Team" title="Here is the dream team">
-        We are here to help.
-      </SectionTitle>
-      <Team />
+      <SectionTitle
+        preTitle="Testemonials"
+        title="What our clients say"
+      ></SectionTitle>
+      <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Please check the FAQ before contacting us.
-      </SectionTitle>
-
-      <Faq />
-      <Contact />
+      <Cta />
     </Container>
   );
 }
