@@ -44,8 +44,8 @@ export const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-indigo-600">200+</span>{" "}
-            South-Africans worldwide
+            Trusted by <span className="text-indigo-600">EVERYONE</span> in
+            South-Africa
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
