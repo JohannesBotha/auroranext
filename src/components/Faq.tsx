@@ -1,7 +1,11 @@
 "use client";
 import React from "react";
 import { Container } from "@/components/Container";
-import { Disclosure, DisclosureButton, DisclosurePanel } from "@headlessui/react";
+import {
+  Disclosure,
+  DisclosureButton,
+  DisclosurePanel,
+} from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 export const Faq = () => {
@@ -32,25 +36,19 @@ export const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How do I know if my taxes are in order?",
+    answer: "Send us an email and find out.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Are my information safe with Aurora?",
+    answer: "Yes, privacy is very important to us.",
   },
   {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "How do I contact you?",
+    answer: "Give us a call on .",
   },
 ];

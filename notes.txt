@@ -1,0 +1,52 @@
+Aurora info required:
+
+Navbar:
+
+	Logo
+	Navbar Button Function:
+	Theme Button:
+
+Footer:
+
+	Terms:
+	Privacy:
+	Legal:
+
+
+	twitter:
+	facebook:
+	instagram:
+	linkedin:
+
+
+Hero:
+
+	Hero Button 1 Function:
+	Hero Button 2 Function:
+	
+	Client Company:
+	Client Company:
+	Client Company:
+	Client Company:
+	Client Company:
+
+
+Benefits:
+
+1. Title:
+	Description:
+		Title:
+		Description:
+		Icon:
+		Title:
+		Description:
+		Icon:
+		Title:
+		Description:
+		Icon:
+		
+
+/Contact Page:
+
+
+email adress? https://web3forms.com/platforms/nextjs-contact-form

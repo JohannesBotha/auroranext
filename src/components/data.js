@@ -7,52 +7,49 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/the-sun.jpg";
+import benefitTwoImg from "../../public/img/the-sun.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "What we offer:",
+  desc: "We specialize in the following services",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Completion and submission of provisional tax returns",
+      desc: "Tax returns are easy for us.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Issuance of tax clearance certificates",
+      desc: "We can prove your tax is paid.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "General accounting and bookkeeping",
+      desc: "We can fix your books",
       icon: <CursorArrowRaysIcon />,
     },
+
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Value added services include",
+  desc: "Helping you achieve your goals",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Virtual Office Sollutions",
+      desc: "We can answer the call and recieve the email you are too busy to.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Registration of companies.",
+      desc: "When you need a new company we can help get your finances in order.",
       icon: <AdjustmentsHorizontalIcon />,
     },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
-    },
+
   ],
 };
 
