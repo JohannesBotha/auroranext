@@ -15,7 +15,7 @@ export function Footer() {
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium text-pink-500 dark:text-gray-100"
               >
                 <Image
                   src="/img/aurora_logo.png"
@@ -28,26 +28,10 @@ export function Footer() {
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
+            <div className="max-w-md mt-4 text-pink-500 dark:text-gray-400">
               Aurora is a small family business that provides tax and accounting
               services that specialize in small businesses. We are here to help
               you with your tax and accounting needs.
-            </div>
-
-            <div className="mt-5">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/the_sun.jpg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
             </div>
           </div>
 
@@ -57,7 +41,7 @@ export function Footer() {
                 <Link
                   key={index}
                   href={item === "Home" ? "/" : item}
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
@@ -70,7 +54,7 @@ export function Footer() {
                 <Link
                   key={index}
                   href={item === "Home" ? "/" : item}
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-pink-500 focus:text-pink-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
@@ -80,39 +64,27 @@ export function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a
-                href="https://twitter.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
+              <Link href="#" target="_blank" rel="noopener">
                 <span className="sr-only">Twitter</span>
                 <Twitter />
-              </a>
-              <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
+              </Link>
+              <Link href="#" target="_blank" rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
-              </a>
-              <a
-                href="https://instagram.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
+              </Link>
+              <Link href="#" target="_blank" rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              </Link>
+              <Link href="#" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        <div className="my-10 text-sm text-center text-pink-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by Jaco Botha
         </div>
       </Container>

@@ -11,10 +11,11 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "class", // or 'media' or 'class'
-  theme: {
+  theme: { 
     extend: {
       colors: {
         trueGray: colors.neutral,
+        
       },
     },
     fontFamily: {

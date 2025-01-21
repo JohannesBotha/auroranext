@@ -1,3 +1,12 @@
+"use client";
+
+{
+  /*
+  > Create Component for clients to iterate through
+  
+  */
+}
+
 import Image from "next/image";
 import React from "react";
 import { Container } from "@/components/Container";
@@ -79,8 +88,8 @@ function Avatar(props: Readonly<AvatarProps>) {
         />
       </div>
       <div>
-        <div className="text-lg font-medium">{props.name}</div>
-        <div className="text-gray-600 dark:text-gray-400">{props.title}</div>
+        <div className="text-pink-500 text-lg font-medium">{props.name}</div>
+        <div className="text-pink-600 dark:text-gray-400">{props.title}</div>
       </div>
     </div>
   );

@@ -8,7 +8,6 @@ import { Hero } from "@/components/Hero";
 export default function About() {
   return (
     <div>
-      <Hero />
       <SectionTitle preTitle="About Us" title="Since 1994" />
       <div className="ml-40 mr-20 text-md flex-col w-2/3 flex items-center  max-w-1/2 text-pretty space-y-5 py-10 text-lg">
         <div>

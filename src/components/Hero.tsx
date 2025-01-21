@@ -1,75 +1,78 @@
+{
+  /*
+    > Not using container, remove
+    > Create logo object for dynamic logo additions
+    > Fix Picture stretch to go to next row
+  
+  */
+}
+
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/aurora_hero_img.png";
+import heroImg from "../../public/img/AURORA_NEW_12.png";
+
+import Link from "next/link";
 
 export const Hero = () => {
   return (
-    <>
-      <Container className="flex flex-wrap ">
-        <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Aurora
-            </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              We specialize in tax returns so you dont need to.
-            </p>
-
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <a
-                href="/Contact"
-                target="_blank"
-                rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md hover:bg-indigo-500"
-              >
-                Lets go
-              </a>
-            </div>
-          </div>
+    <div className=" dark:bg-gray-900">
+      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="mr-auto place-self-center lg:col-span-7">
+          <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            Tax Services you can trust.
+          </h1>
+          <p className="max-w-2xl mb-6 font-light text-pink-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            From checkout to global sales tax compliance, companies around the
+            world use AURORA to get a little extra back.
+          </p>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-pink-500 hover:text-pink-700 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+          >
+            Get started
+            <svg
+              className="w-5 h-5 ml-2 -mr-1"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </Link>
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:text-pink-500 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          >
+            Calculate your saving
+          </Link>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
-          <div className="">
-            <Image
-              src={heroImg}
-              width="616"
-              height="617"
-              className="rounded-2xl object-cover"
-              alt="Hero Illustration"
-              loading="eager"
-              placeholder="blur"
-            />
-          </div>
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+          <Image src={heroImg} alt="mockup" />
         </div>
-      </Container>
-      <Container>
-        <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-indigo-600">EVERYONE</span> in
-            South-Africa
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              [Company Logo]
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              [Company Logo]
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              [Company Logo]
-            </div>
-            <div className="pt-1 text-gray-400 dark:text-gray-400">
-              [Company Logo]
-            </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              [Company Logo]
-            </div>
-          </div>
-        </div>
-      </Container>
-    </>
+      </div>
+    </div>
   );
 };
+{
+  /*LogoBanner
+        <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+          <div className="pt-2 text-gray-400 dark:text-gray-400">
+            [Company Logo]
+          </div>
+          <div className="text-gray-400 dark:text-gray-400">[Company Logo]</div>
+          <div className="text-gray-400 dark:text-gray-400">[Company Logo]</div>
+          <div className="pt-1 text-gray-400 dark:text-gray-400">
+            [Company Logo]
+          </div>
+          <div className="pt-2 text-gray-400 dark:text-gray-400">
+            [Company Logo]
+          </div>
+        </div>*/
+}
 
 function AmazonLogo() {
   return (

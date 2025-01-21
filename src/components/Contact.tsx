@@ -27,22 +27,22 @@ export default function Contact() {
 
   return (
     <div className="flex-col mt-10">
-      <div className=" mx-auto rounded-2xl items-center w-2/3  border-8 border-gray-600 bg-gray-600 shadow-3xl  ">
-        <div className="flex flex-col   p-5 bg-gray-600">
+      <div className=" mx-auto rounded-2xl items-center w-2/3  border-8 border-pink-600 bg-pink-600 shadow-3xl  ">
+        <div className="flex flex-col   p-5 bg-pink-600">
           <h3 className="mb-6 text-5xl text-white">How can we help?</h3>
           <p className="text-3xl text-white opacity-50">
             We usually respond within 2 days.
           </p>
         </div>
         <form
-          className="flex-grow h-full p-6 overflow-auto bg-gray-600 "
+          className="flex-grow h-full p-6 overflow-auto bg-pink-600 "
           onSubmit={handleSubmit}
         >
           {/*Name*/}
           <div className="mb-4">
             <label
               htmlFor="full_name"
-              className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+              className="block mb-2 text-md text-black dark:text-gray-400"
             >
               Full Name
             </label>
@@ -58,7 +58,7 @@ export default function Contact() {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+              className="block mb-2 text-md text-black dark:text-gray-400"
             >
               Email Address
             </label>
@@ -75,7 +75,7 @@ export default function Contact() {
           <div className="mb-4">
             <label
               htmlFor="message"
-              className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+              className="block mb-2 text-md text-black dark:text-gray-400"
             >
               Your Message
             </label>
@@ -92,7 +92,7 @@ export default function Contact() {
 
         <div className="mb-3">
           <button
-            className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none hover:bg-indigo-600"
+            className="w-full px-3 py-4 text-white bg-pink-500 rounded-md focus:bg-pink-600 focus:outline-none hover:bg-pink-600"
             type="submit"
           >
             Submit
