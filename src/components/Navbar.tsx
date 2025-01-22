@@ -34,18 +34,22 @@ export const Navbar = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image src={Logo} className="h-8" alt="Aurora Logo" width={44} />
-          <span className="text-pink-500 hover:text-pink-700 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className=" text-pink-500 hover:text-pink-700 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             AURORA
           </span>
         </Link>
+
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
             href="/Contact"
             type="button"
-            className="text-white bg-pink-500 hover:bg-pink-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className=" dark:hover:text-black hover:text-pink-500 bg-gradient-to-r from-pink-500 via-gray-300 to-teal-500 rounded-xl p-2 hover:bg-gradient-to-br dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800"
           >
             Get started
           </Link>
+          <div className="fixed right-10 bottom-5 ">
+            <ThemeChanger />
+          </div>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
@@ -56,16 +60,16 @@ export const Navbar = () => {
             <span className="sr-only">Open main menu</span>
             <svg
               className="w-5 h-5"
-              aria-Hidden="true"
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 17 14"
             >
               <path
                 stroke="currentColor"
-                stroke-Linecap="round"
+                strokeLinecap="round"
                 stroke-Linejoin="round"
-                stroke-Width="2"
+                strokeWidth="2"
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
@@ -78,11 +82,11 @@ export const Navbar = () => {
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             {navigation.map((menu, index) => (
               <li
-                className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                className="block py-2 px-3 text-white bg-pink-700 rounded md:bg-transparent md:text-pink-700 md:p-0 dark:text-white md:dark:text-pink-500"
                 key={index}
               >
                 <Link
-                  className="inline-block px-auto py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800 dark:hover:text-indigo-500"
+                  className="bg-gradient-to-r from-pink-500 via-gray-300 to-teal-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800  rounded-lg  px-3 py-1 text-center me-2 mb-2 inline-block px-auto  text-md font-normal text-gray-800 no-underline  dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100  dark:focus:bg-gray-800 dark:hover:text-black "
                   href={menu === "Home" ? "/" : menu}
                 >
                   {menu}

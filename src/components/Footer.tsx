@@ -48,6 +48,7 @@ export function Footer() {
               ))}
             </div>
           </div>
+          {/*Legal tabs
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
@@ -60,7 +61,7 @@ export function Footer() {
                 </Link>
               ))}
             </div>
-          </div>
+          </div>*/}
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">

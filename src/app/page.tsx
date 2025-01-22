@@ -6,6 +6,7 @@ import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
+
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
 import { benefitOne, benefitTwo } from "@/components/data";
