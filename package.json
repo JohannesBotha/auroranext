@@ -1,25 +1,27 @@
 {
   "name": "aurora",
   "version": "1.0.0",
-  "description": "Aurora Landing Page",
   "private": true,
+  "description": "Aurora Landing Page",
+  "keywords": [
+    "nextjs",
+    "tailwindcss"
+  ],
+  "homepage": "https://github.com/JohannesBotha/auroranext#readme",
+  "bugs": {
+    "url": "https://github.com/JohannesBotha/auroranext/issues"
+  },
+  "repository": "git+https://github.com/JohannesBotha/auroranext.git",
+  "license": "ISC",
+  "author": "Jaco Botha",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/JohannesBotha/auroranext"
-  },
-  "keywords": [
-    "nextjs",
-    "tailwindcss",
-    "free"
-  ],
-  "author": "Jaco Botha",
-  "license": "ISC",
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.1.3",
